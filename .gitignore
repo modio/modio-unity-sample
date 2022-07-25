@@ -60,3 +60,6 @@ crashlytics-build.properties
 
 # Jetbrains
 .idea/
+
+# mod.io
+/mod.io/
