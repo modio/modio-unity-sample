@@ -10,7 +10,8 @@ using UnityEngine.UI;
 /// required to display the TOS for the user to agree to.
 /// Note: you do not need a mod.io account setup to authenticate with your email address
 /// </summary>
-public class AuthenticationManager : MonoBehaviour
+public class 
+    AuthenticationManager : MonoBehaviour
 {
     [Header("Panels")]
     [SerializeField] GameObject AuthenticationMenu;
@@ -199,6 +200,10 @@ public class AuthenticationManager : MonoBehaviour
                 CloseAuthenticationManager();
                 TextureListMenu.Instance.OpenTextureListMenu();
             });
+            
+            // Now that we're authenticated we can enable mod management to automatically download
+            // and install mods that the user subscribes to.
+            ModIOUnity.EnableModManagement(TextureListMenu.Instance.ModManagementEvent);
         }
         else
         {
