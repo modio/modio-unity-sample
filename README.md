@@ -1,5 +1,5 @@
-<a href="https://mod.io"><img src="https://beta.mod.io/images/branding/modio_logo_bluewhite.svg" alt="mod.io" width="360" align="right"/></a>
-# Mod.io Unity Sample Project
+<a href="https://mod.io"><img src="https://mod.io/images/branding/modio-logo-bluedark.svg" alt="mod.io" width="360" align="right"/></a>
+# mod.io Unity Sample Project
 [![Discord](https://img.shields.io/discord/389039439487434752.svg?label=Discord&logo=discord&color=7289DA&labelColor=2C2F33)](https://discord.mod.io)
 [![Unity 3D](https://img.shields.io/badge/Unity-2018.4+-lightgrey.svg)](https://unity3d.com)
 
