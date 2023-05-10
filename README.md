@@ -1,10 +1,11 @@
 <a href="https://mod.io"><img src="https://mod.io/images/branding/modio-logo-bluedark.svg" alt="mod.io" width="360" align="right"/></a>
-# mod.io Unity Sample Project
+# mod.io Unity Sample Projects
 [![Discord](https://img.shields.io/discord/389039439487434752.svg?label=Discord&logo=discord&color=7289DA&labelColor=2C2F33)](https://discord.mod.io)
 [![Unity 3D](https://img.shields.io/badge/Unity-2018.4+-lightgrey.svg)](https://unity3d.com)
 
-## Overview
-This sample project implements the common usages of the mod.io plugin with practical examples. This sample demonstrates the following features:
+This sample project implements the common usages of the [mod.io Unity Plugin](https://github.com/modio/modio-unity) with practical examples.
+
+## Features
 * Initializing the plugin
 * Enabling automatic mod management
 * Authenticating a user via email
